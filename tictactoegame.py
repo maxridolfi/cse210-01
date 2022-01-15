@@ -1,6 +1,6 @@
 '''
-Tic-Tac-Toe: A Solution
-Author: Bro. Manley
+Tic-Tac-Toe Game
+Author: Maxwell Ridolfi
 '''
 
 def main():
@@ -11,7 +11,7 @@ def main():
         make_move(player, board)
         player = next_player(player)
     display_board(board)
-    print("Good game. Thanks for playing!") 
+    print("You win! Thanks for playing!") 
 
 def create_board():
     board = []
